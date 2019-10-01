@@ -43,7 +43,7 @@ app.post('/messages', (req, res) => {
     });
 });
 
-const PORT = process.env.PORT || 3545;
+const PORT = process.env.PORT || 3500;
 app.listen(PORT, () => {
   console.log(`Listening on port ${PORT}`);
 });
